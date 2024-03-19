@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<odoo>
+    <template id="object" inherit_id="website.layout">
+        <xpath expr="//div[@class='container']" position="inside">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>School Details</h2>
+                    <p>Name: <t t-esc="school.name"/></p>
+                    <p>Description: <t t-esc="school.description"/></p>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
